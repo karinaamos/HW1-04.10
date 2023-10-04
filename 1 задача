@@ -1,0 +1,17 @@
+#include "stdio.h"
+
+int main() {
+    int a;
+    scanf("%d", &a);
+    if (a == 2) {
+        printf("Двоечник");
+    }
+    if (a == 3 || a == 4) {
+        printf("Хорошист");
+    }
+    if (a==5) {
+        printf("Отличник");
+    }
+    return 0;
+}
+    
